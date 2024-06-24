@@ -1,13 +1,15 @@
 <template>
-  <LandingPage />
+  <div class="bg-body-secondary">
+    <LandingComponent />
+  </div>
 </template>
 
 <script>
-import LandingPage from "./components/LandingPage.vue";
+import LandingComponent from "./components/LandingComponent.vue";
 export default {
   name: "App",
   components: {
-    LandingPage,
+    LandingComponent,
   },
 };
 </script>
